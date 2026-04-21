@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TinySaver Kids — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the TinySaver Kids savings-habit app for children. COPPA and GDPR-K compliant."/>
+<style>
+  :root{
+    --bg:#FAFAF7;
+    --surface:#FFFFFF;
+    --ink:#1C1B1F;
+    --muted:#49454F;
+    --primary:#705D00;
+    --primary-soft:#FFECAA;
+    --border:#EAE4DA;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Plus Jakarta Sans",sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.65;
+  }
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:48px 24px 96px;
+  }
+  .hero{
+    background:var(--primary-soft);
+    border-radius:28px;
+    padding:36px 32px;
+    margin-bottom:40px;
+  }
+  .hero h1{
+    margin:0 0 8px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--primary);
+  }
+  .hero .sub{
+    margin:0;
+    color:var(--primary);
+    font-weight:600;
+    opacity:.8;
+  }
+  .meta{
+    font-size:14px;
+    color:var(--muted);
+    margin-top:16px;
+  }
+  article{
+    background:var(--surface);
+    border-radius:24px;
+    padding:32px;
+    box-shadow:0 2px 12px rgba(0,0,0,.03);
+  }
+  h2{
+    margin-top:36px;
+    font-size:22px;
+    font-weight:800;
+    color:var(--ink);
+    padding-bottom:6px;
+    border-bottom:2px solid var(--primary-soft);
+  }
+  h2:first-of-type{margin-top:0}
+  h3{
+    margin-top:24px;
+    font-size:17px;
+    font-weight:700;
+    color:var(--ink);
+  }
+  p,ul,ol{
+    color:var(--muted);
+    font-size:16px;
+  }
+  ul,ol{padding-left:22px}
+  li{margin-bottom:6px}
+  a{color:var(--primary);text-decoration:underline;text-underline-offset:2px}
+  a:hover{text-decoration-thickness:2px}
+  code{
+    background:var(--bg);
+    padding:2px 6px;
+    border-radius:6px;
+    font-size:14px;
+  }
+  .email{
+    display:inline-block;
+    background:var(--primary-soft);
+    color:var(--primary);
+    padding:10px 18px;
+    border-radius:999px;
+    font-weight:700;
+    text-decoration:none;
+    margin-top:4px;
+  }
+  footer{
+    margin-top:48px;
+    text-align:center;
+    color:var(--muted);
+    font-size:13px;
+  }
+  hr{
+    border:0;
+    border-top:1px solid var(--border);
+    margin:32px 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>TinySaver Kids</h1>
+    <p class="sub">Privacy Policy</p>
+    <div class="meta">
+      <strong>Effective date:</strong> April 21, 2026 &middot;
+      <strong>Last updated:</strong> April 21, 2026
+    </div>
+  </header>
+
+  <article>
+    <p>
+      TinySaver Kids ("the App", "we", "us") is a savings-habit app for
+      children operated by the TinySaver Kids team. This policy explains what
+      information the App collects, how it is used, and the choices you have.
+    </p>
+    <p>
+      We designed this App to be <strong>family-friendly and COPPA / GDPR-K
+      compliant</strong>. All ads shown in the App are child-directed,
+      non-personalized, and rated G.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Account information (required)</h3>
+    <p>When you create an account, we collect:</p>
+    <ul>
+      <li><strong>Email address</strong> (for Firebase Authentication)</li>
+      <li><strong>Password</strong> (hashed by Firebase; we never see it in plaintext)</li>
+      <li><strong>Child's display name</strong> (chosen by the parent)</li>
+      <li><strong>Pig / mascot name</strong> (chosen by the child)</li>
+    </ul>
+
+    <h3>1.2 App usage data</h3>
+    <p>The App stores per-user:</p>
+    <ul>
+      <li>Coin balance, reward goals, tasks you create, completion history</li>
+      <li>Streak counts, daily missions, owned mascots and accessories</li>
+      <li>Selected currency and coin value</li>
+      <li>Parent PIN (a <em>local household PIN</em>, not a security credential)</li>
+    </ul>
+
+    <h3>1.3 Purchase information</h3>
+    <p>
+      If you purchase <strong>TinySaver Pro</strong>, the purchase is
+      processed by <strong>Google Play Billing</strong> (Android) or the
+      <strong>App Store</strong> (iOS). We never see your credit-card or
+      banking details. We store a flag
+      (<code>is_premium: true</code>) and the purchase date on your account.
+    </p>
+
+    <h3>1.4 Advertising data</h3>
+    <p>
+      In the parent-facing screens only, we display banner ads via
+      <strong>Google AdMob</strong>. For kids' privacy:
+    </p>
+    <ul>
+      <li>Ads are flagged <strong>child-directed</strong> (COPPA)</li>
+      <li>Requests are <strong>non-personalized</strong> (no behavioural tracking)</li>
+      <li>Maximum content rating: <strong>G (general audiences)</strong></li>
+      <li>We pass <code>tagForChildDirectedTreatment = yes</code> and <code>tagForUnderAgeOfConsent = yes</code> on every ad request.</li>
+    </ul>
+    <p>
+      Google's AdMob privacy practices for child-directed traffic apply:
+      <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">
+        support.google.com/admob/answer/6223431</a>.
+    </p>
+
+    <h3>1.5 Crash and diagnostic data</h3>
+    <p>
+      If the App crashes, we use <strong>Firebase Crashlytics</strong> to log
+      stack trace, device model, OS version, and app version. No personal
+      data is attached to crash reports.
+    </p>
+
+    <h3>1.6 What we do NOT collect</h3>
+    <ul>
+      <li>Location data</li>
+      <li>Contacts, photos, microphone, or camera</li>
+      <li>Cross-app / cross-website tracking identifiers</li>
+      <li>Biometric data</li>
+    </ul>
+
+    <h2>2. How We Use the Information</h2>
+    <ul>
+      <li>To run the App and save your progress across devices</li>
+      <li>To process one-time Pro purchases via the store</li>
+      <li>To show non-personalized, child-safe ads on the parent dashboard</li>
+      <li>To fix bugs and improve stability (via anonymized crash reports)</li>
+      <li>To enforce parental PIN / family-mode gates</li>
+    </ul>
+    <p>
+      We do <strong>not</strong> sell your data. We do <strong>not</strong> use
+      your data for behavioural advertising or profiling.
+    </p>
+
+    <h2>3. Legal Basis (GDPR)</h2>
+    <p>For users in the EEA, UK, or similar jurisdictions:</p>
+    <ul>
+      <li><strong>Contract</strong> — we process account data to provide the service you signed up for.</li>
+      <li><strong>Legitimate interest</strong> — we show non-personalized ads and use crash reports to keep the App running.</li>
+      <li><strong>Consent</strong> — you, as the parent, consent on behalf of the child when creating the account.</li>
+    </ul>
+
+    <h2>4. Children's Privacy (COPPA, US)</h2>
+    <p>
+      TinySaver Kids is designed for children under 13 with <strong>parental
+      account creation required</strong>. No persistent identifier is used for
+      ad targeting. All ad requests are tagged child-directed. We do not
+      knowingly allow a child to create an account without a parent's email.
+    </p>
+    <p>
+      If you believe a child created an account without your permission,
+      email us at the address below and we will delete the account within
+      7 days.
+    </p>
+
+    <h2>5. Data Storage &amp; Security</h2>
+    <ul>
+      <li>Data is stored in <strong>Google Firebase</strong> (Cloud Firestore + Firebase Auth), hosted on Google Cloud with industry-standard encryption at rest and in transit.</li>
+      <li>Firestore security rules restrict each user's data to the authenticated owner of that document.</li>
+      <li>Passwords are never stored in plaintext — Firebase Auth hashes them using industry-standard one-way functions.</li>
+    </ul>
+
+    <h2>6. Sharing With Third Parties</h2>
+    <p>We share information only with:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (Auth, Firestore, Crashlytics) — processing on our behalf</li>
+      <li><strong>Google AdMob</strong> — for serving non-personalized, child-safe banner ads</li>
+      <li><strong>Apple / Google</strong> — when processing in-app purchases</li>
+    </ul>
+    <p>We do not sell, rent, or trade your personal data.</p>
+
+    <h2>7. Data Retention</h2>
+    <ul>
+      <li>Account data is kept as long as your account exists.</li>
+      <li>You can delete your account at any time from <strong>BUDDY tab → Sign Out → Delete Account</strong> (or by emailing us).</li>
+      <li>Crashlytics retains anonymized crash reports for up to 90 days.</li>
+    </ul>
+
+    <h2>8. Your Rights</h2>
+    <p>Depending on your region, you may have the right to:</p>
+    <ul>
+      <li>Access a copy of the data we store about you</li>
+      <li>Correct inaccurate data (the BUDDY tab lets you edit most of it directly)</li>
+      <li>Delete your account and all associated data</li>
+      <li>Object to or restrict certain processing</li>
+      <li>Lodge a complaint with your local data protection authority</li>
+    </ul>
+    <p>To exercise any of these rights, email us at the address below.</p>
+
+    <h2>9. International Transfers</h2>
+    <p>
+      Firebase stores data in Google Cloud data centres, which may be located
+      outside your country (including the United States). Google is
+      certified under the EU-US Data Privacy Framework.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <ul>
+      <li>We will update the "Last updated" date at the top.</li>
+      <li>We will show a one-time in-app notice on the next launch if the changes are material.</li>
+      <li>Continued use of the App after a change means you accept the updated policy.</li>
+    </ul>
+
+    <h2>11. Contact Us</h2>
+    <p>For COPPA / privacy concerns, please include "Privacy" in the subject line. We will respond within 7 days.</p>
+    <p>
+      <a class="email" href="mailto:bicolallan@gmail.com?subject=Privacy%20-%20TinySaver%20Kids">bicolallan@gmail.com</a>
+    </p>
+
+    <hr />
+    <p style="text-align:center;font-size:13px;color:var(--muted)">
+      TinySaver Kids is an independent app, not affiliated with Google,
+      Apple, or any school.
+    </p>
+  </article>
+
+  <footer>
+    &copy; 2026 TinySaver Kids
+  </footer>
+
+</div>
+</body>
+</html>
